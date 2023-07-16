@@ -50,15 +50,39 @@ nav li a {
   margin-top: 20px;
 }
 .btn-primary {
-  width: 150px;
-  height: 55px;
   background: #ff900e;
   color: #fff;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   border-radius: 8PX;
   border: none;
   margin-top: 20px;
+  padding: 20px 25px;
+  cursor: pointer;
 }
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* mobil devic */
+@media screen and (max-width: 576px ){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+}
+/* tablet deciv */
+@media screen and ( main-width:576px) and (max-width:960) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
 
